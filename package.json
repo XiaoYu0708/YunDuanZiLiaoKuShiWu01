@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "firebase": "^11.4.0"
+  },
+  "scripts": {
+    "build": "rm -rf public && mkdir public && mv information.html public/index.html && mv style.css public/ && mv main.js public/ && mv feedback.html public/"
+  },
+  "devDependencies": {
+    "firebase-tools": "^13.2.0"
+  }
+}
